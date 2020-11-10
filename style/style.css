@@ -1,0 +1,60 @@
+.hide {
+  display: none;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header {
+  background-color: rgb(243, 33, 33);
+}
+
+nav {
+  font-size: 1.5rem;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.nav-bottom {
+  color: lightgrey;
+  font-size: 1rem;
+}
+
+.btn-yellow {
+  background: #ffe400;
+  color: black;
+  border-radius: 10px;
+}
+
+.fa-chevron-right {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+figure {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-highlight {
+  position: absolute;
+  color: rgb(243, 33, 33);
+  font-weight: bold;
+  bottom: 0;
+  background-color: lightgrey;
+}
+
+
+
+
+
+
+
+

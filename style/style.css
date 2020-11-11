@@ -52,6 +52,10 @@ figure {
   background-color: lightgrey;
 }
 
+.fixed-size-img {
+  max-width: 95px;
+}
+
 .c-vs {
   text-align: center;
   position: relative;
@@ -81,7 +85,7 @@ figure {
   top: 50%;
 }
 
-span {
+.span {
   color: #fff;
   font-weight: bolder;
   font-size: 1rem;
@@ -91,7 +95,29 @@ span {
   border-radius: 50%;
 }
 
+form {
+  background: #f4f5f6;
+}
 
+.logo {
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg");
+  background-repeat: no-repeat;
+  background-color: rgb(247, 34, 16);
+  display: block;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.img-btn-back-color {
+  background-color: rgb(247, 34, 16);
+  font-weight: bold;
+}
+
+.img-btn-color {
+  color: rgb(247, 34, 16);
+  font-weight: bold;
+}
 
 
 

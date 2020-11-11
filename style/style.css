@@ -52,7 +52,44 @@ figure {
   background-color: lightgrey;
 }
 
+.c-vs {
+  text-align: center;
+  position: relative;
+  margin: 10px auto;
+  position: relative;
+}
 
+.c-vs:before {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 1.5px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.c-vs:after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 1.5px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+span {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+  background: #000;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+}
 
 
 

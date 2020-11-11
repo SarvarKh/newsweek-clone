@@ -137,14 +137,6 @@ form {
   border: none;
 }
 
-.subscribe-fixed-container {
-  background-color: red;
-}
-
-.subcribe {
-  background-color: blue;
-}
-
 .newsletter-email {
   height: 38px;
 }
@@ -161,6 +153,10 @@ form {
   font-size: 20px;
   padding: 0;
   margin-top: 10px;
+}
+
+.sponsored-insight {
+  width: 400px;
 }
 
 footer {

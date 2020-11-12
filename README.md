@@ -5,16 +5,21 @@
 This is the clone webpage of NewsWeek web-site with the use of bootstrap framework
 
 Mobile view
-![screenshot](screenshot_mobile.jpg)
+
+![screenshot](assets/screenshots/mobile.jpg)
 
 Tablet view
-![screenshot](screenshot_tablet.jpg)
+
+![screenshot](assets/screenshots/tablet.jpg)
 
 Laptop (sm) view
-![screenshot](screenshot_laptop.jpg)
+
+![screenshot](assets/screenshots/laptop.jpg)
 
 Desktop (lg) view
-![screenshot](screenshot_desktop.jpg)
+
+![screenshot](assets/screenshots/desktop.jpg)
+
 
 Additional description about the project and its features.
 

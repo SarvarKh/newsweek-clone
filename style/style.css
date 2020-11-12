@@ -175,3 +175,7 @@ footer .top {
   background-color: rgb(138, 137, 137);
   color: #fff;
 }
+
+.border-bottom {
+  border-bottom: 1px solid rgb(138, 137, 137);
+}

@@ -20,8 +20,9 @@ a {
   color: rgb(138, 137, 137);
 }
 
-header {
+.fixed-top {
   background-color: rgb(243, 33, 33);
+  z-index: -1;
 }
 
 nav {
@@ -85,11 +86,6 @@ figure {
 .weather-img {
   max-width: 24px;
   height: 24px;
-}
-
-.newsweek {
-  font-size: 50px;
-  font-weight: bolder;
 }
 
 .date {
@@ -204,4 +200,53 @@ footer .top {
 
 .border-bottom {
   border-bottom: 1px solid rgb(138, 137, 137);
+}
+
+.m-for-nav {
+  margin-top: 55px;
+}
+
+.m-main-article {
+  margin-top: 60px;
+}
+
+@media (min-width: 992px) {
+  .m-main-article {
+    margin-top: 10px;
+  }
+
+  .newsweek {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .m-for-nav {
+    margin-top: 75px;
+    background-color: #fff;
+  }
+
+  .container-middle-nav {
+    border-bottom: 2px solid rgb(138, 137, 137, 0.2);
+  }
+
+  .middle-nav {
+    font-size: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  .middle-nav-items {
+    border-right: 1px solid rgb(138, 137, 137);
+    padding-right: 8px;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .bottom-nav {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .bottom-nav-items {
+    color: rgb(138, 137, 137);
+  }
 }

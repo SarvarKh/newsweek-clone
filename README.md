@@ -4,17 +4,24 @@
 # Newsweek-clone | RESPONSIVE WEB DESIGN
 This is the clone webpage of NewsWeek web-site with the use of bootstrap framework
 
+
 Mobile view
 
 ![screenshot](assets/screenshots/mobile.png)
+
+
 
 Tablet view
 
 ![screenshot](assets/screenshots/tablet.png)
 
+
+
 Laptop (sm) view
 
 ![screenshot](assets/screenshots/laptop.png)
+
+
 
 Desktop (lg) view
 

@@ -32,6 +32,11 @@ nav {
   cursor: pointer;
 }
 
+.nav-top {
+  font-size: 14px;
+  color: white;
+}
+
 .nav-bottom {
   color: lightgrey;
   font-size: 1rem;
@@ -46,6 +51,11 @@ nav {
 .fa-chevron-right {
   font-size: 12px;
   vertical-align: middle;
+}
+
+.fa-bars {
+  font-size: 25px;
+  color: rgb(238, 238, 238, 0.7);
 }
 
 article {
@@ -70,6 +80,20 @@ figure {
 .fixed-size-img {
   max-width: 95px;
   height: 95px;
+}
+
+.weather-img {
+  max-width: 24px;
+  height: 24px;
+}
+
+.newsweek {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.date {
+  font-weight: 600;
 }
 
 .c-vs {

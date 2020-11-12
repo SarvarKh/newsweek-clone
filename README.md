@@ -6,19 +6,19 @@ This is the clone webpage of NewsWeek web-site with the use of bootstrap framewo
 
 Mobile view
 
-![screenshot](assets/screenshots/mobile.jpg)
+![screenshot](assets/screenshots/mobile.png)
 
 Tablet view
 
-![screenshot](assets/screenshots/tablet.jpg)
+![screenshot](assets/screenshots/tablet.png)
 
 Laptop (sm) view
 
-![screenshot](assets/screenshots/laptop.jpg)
+![screenshot](assets/screenshots/laptop.png)
 
 Desktop (lg) view
 
-![screenshot](assets/screenshots/desktop.jpg)
+![screenshot](assets/screenshots/desktop.png)
 
 
 Additional description about the project and its features.

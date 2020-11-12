@@ -4,7 +4,17 @@
 # Newsweek-clone | RESPONSIVE WEB DESIGN
 This is the clone webpage of NewsWeek web-site with the use of bootstrap framework
 
-![screenshot](index.jpg)
+Mobile view
+![screenshot](screenshot_mobile.jpg)
+
+Tablet view
+![screenshot](screenshot_tablet.jpg)
+
+Laptop (sm) view
+![screenshot](screenshot_laptop.jpg)
+
+Desktop (lg) view
+![screenshot](screenshot_desktop.jpg)
 
 Additional description about the project and its features.
 
@@ -12,19 +22,22 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- Bootstrap
 
+## Live Demo
+[Click here](https://htmlpreview.github.io/?https://github.com/SarvarKh/newsweek-clone/blob/framework/index.html)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/SarvarKh/TNW-clone/tree/feature-branch).
+- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/SarvarKh/newsweek-clone/tree/framework).
 - Under the repository name, locate and click on a green button named `Code`.
 - Copy the project URL as displayed.
 - If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal.
 - Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
-  `$ git clone https://github.com/SarvarKh/TNW-clone.git` <em>Press Enter key</em><br>
+  `$ git clone https://github.com/SarvarKh/newsweek-clone.git` <em>Press Enter key</em><br>
 - Press Enter. Your local copy will be created.
 
 Please Note that you must have github installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03).
@@ -36,11 +49,6 @@ Web browser (Chrome/Firefox)
 
 
 ## Author
-
-👤 **ENEKWECHI CHINOSO GERALD**
-
-- GitHub: [@oxford-g](https://github.com/oxford-g)
-- Twitter: [@oxford2](https://twitter.com/oxford2)
 
 👤 **Sarvar Khalimov**
 
@@ -61,8 +69,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://.microverse.org/)
-- [The Odin Project (Project Spec)](https://www.theodinproject.com/courses/javascript/lessons/weather-app)
-- [THE NEXT WEB](https://thenextweb.com/)
+- [The Odin Project (Project Spec)](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+- [NEWS WEEK](https://www.newsweek.com/)
 
 ## 📝 License
 

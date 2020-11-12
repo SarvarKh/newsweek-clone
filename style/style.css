@@ -20,9 +20,18 @@ a {
   color: rgb(138, 137, 137);
 }
 
+body {
+  background-color: #f4f5f6;
+}
+
+.wrapper {
+  max-width: 1330px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
 .fixed-top {
   background-color: rgb(243, 33, 33);
-  z-index: -1;
 }
 
 nav {
@@ -104,7 +113,7 @@ figure {
   display: block;
   width: 45%;
   height: 1.5px;
-  background: #000;
+  background: rgb(138, 137, 137, 0.2);
   position: absolute;
   left: 0;
   top: 50%;
@@ -115,7 +124,7 @@ figure {
   display: block;
   width: 45%;
   height: 1.5px;
-  background: #000;
+  background: rgb(138, 137, 137, 0.2);
   position: absolute;
   right: 0;
   top: 50%;
@@ -193,13 +202,20 @@ footer .top {
   border-bottom: 1px solid rgb(138, 137, 137);
 }
 
-.footer-navigation li {
-  background-color: rgb(138, 137, 137);
-  color: #fff;
-}
-
 .border-bottom {
   border-bottom: 1px solid rgb(138, 137, 137);
+}
+
+.border-bottom-b {
+  border-bottom: 2px solid rgb(138, 137, 137);
+}
+
+.border-top {
+  border-top: 1px solid rgb(138, 137, 137);
+}
+
+.border-top-b {
+  border-top: 2px solid rgb(138, 137, 137);
 }
 
 .m-for-nav {
@@ -232,6 +248,7 @@ footer .top {
   .middle-nav {
     font-size: 16px;
     border-top-right-radius: 16px;
+    z-index: 1040;
   }
 
   .middle-nav-items {

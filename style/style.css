@@ -1,0 +1,268 @@
+.hide {
+  display: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(138, 137, 137);
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+.wrapper {
+  max-width: 1330px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.fixed-top {
+  background-color: rgb(243, 33, 33);
+}
+
+nav {
+  font-size: 1.5rem;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.nav-top {
+  font-size: 14px;
+  color: white;
+}
+
+.nav-bottom {
+  color: lightgrey;
+  font-size: 1rem;
+}
+
+.btn-yellow {
+  background: #ffe400;
+  color: black;
+  border-radius: 10px;
+}
+
+.fa-chevron-right {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.fa-bars {
+  font-size: 25px;
+  color: rgb(238, 238, 238, 0.7);
+}
+
+article {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(138, 137, 137);
+  padding-bottom: 2px;
+}
+
+figure {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-highlight {
+  position: absolute;
+  color: rgb(243, 33, 33);
+  font-weight: bold;
+  bottom: 0;
+  background-color: lightgrey;
+}
+
+.fixed-size-img {
+  max-width: 95px;
+  height: 95px;
+}
+
+.weather-img {
+  max-width: 24px;
+  height: 24px;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.c-vs {
+  text-align: center;
+  position: relative;
+  margin: 10px auto;
+}
+
+.c-vs::before {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 1.5px;
+  background: rgb(138, 137, 137, 0.2);
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.c-vs::after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 1.5px;
+  background: rgb(138, 137, 137, 0.2);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.span {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+  background: #000;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+form {
+  background: #f4f5f6;
+}
+
+.logo {
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg");
+  background-repeat: no-repeat;
+  background-color: rgb(247, 34, 16);
+  display: block;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.img-btn-back-color {
+  background-color: rgb(247, 34, 16);
+  font-weight: bold;
+}
+
+.img-btn-color {
+  color: rgb(247, 34, 16);
+  font-weight: bold;
+}
+
+.card-without-border {
+  border: none;
+}
+
+.newsletter-email {
+  height: 38px;
+}
+
+.btn-email {
+  padding: 0;
+}
+
+.icons-sizing {
+  font-size: 30px;
+}
+
+.bi-share-fill {
+  font-size: 20px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.sponsored-insight {
+  width: 400px;
+}
+
+footer {
+  color: rgb(138, 137, 137);
+}
+
+.text-danger {
+  font-size: 50px;
+}
+
+footer .top {
+  border-bottom: 1px solid rgb(138, 137, 137);
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(138, 137, 137);
+}
+
+.border-bottom-b {
+  border-bottom: 2px solid rgb(138, 137, 137);
+}
+
+.border-top {
+  border-top: 1px solid rgb(138, 137, 137);
+}
+
+.border-top-b {
+  border-top: 2px solid rgb(138, 137, 137);
+}
+
+.m-for-nav {
+  margin-top: 55px;
+}
+
+.m-main-article {
+  margin-top: 60px;
+}
+
+@media (min-width: 992px) {
+  .m-main-article {
+    margin-top: 10px;
+  }
+
+  .newsweek {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .m-for-nav {
+    margin-top: 75px;
+    background-color: #fff;
+  }
+
+  .container-middle-nav {
+    border-bottom: 2px solid rgb(138, 137, 137, 0.2);
+  }
+
+  .middle-nav {
+    font-size: 16px;
+    border-top-right-radius: 16px;
+    z-index: 1040;
+  }
+
+  .middle-nav-items {
+    border-right: 1px solid rgb(138, 137, 137);
+    padding-right: 8px;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .bottom-nav {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .bottom-nav-items {
+    color: rgb(138, 137, 137);
+  }
+}
